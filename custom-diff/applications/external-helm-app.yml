@@ -32,4 +32,4 @@ spec:
   - group: apps
     kind: Secret
     jqPathExpressions:
-    - .data.my-password
+    - .data.*
